@@ -1,0 +1,342 @@
+/* 通用 */
+*{
+    margin:0;
+    padding:0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul li{
+    list-style:none;
+}
+
+
+
+/* 头部 */
+header{
+    background:#07CBC9;
+    height: 80px;
+}
+
+header .logo-and-nav{
+    width:1200px;
+    margin: 0 auto;
+    height: 16px;  
+}
+/* logo */
+/* header .logo-and-nav .logo h1 a{ 
+    font-size:48px;
+    color:#fff;
+    line-height: 80px;
+    float:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+header .logo-and-nav .logo{
+    float:left;
+   
+    height: 80px;
+}
+header .logo-and-nav .logo h1 a img{
+    
+    padding:15px 0;
+}
+
+/* nav */
+header .logo-and-nav nav ul{
+    float:right;   
+}
+header .logo-and-nav nav ul li{
+    float:left;
+    padding:0 10px;
+    
+}
+header .logo-and-nav nav ul li:first-child{
+    padding-left:0;
+}
+header .logo-and-nav nav ul li:last-child{
+    padding-right:0;
+}
+header .logo-and-nav nav ul li a{
+    font-size:16px;
+    line-height: 80px;
+    color:#fff;
+}
+
+/* banner */
+main .banner{
+    width:100%;
+    position:relative;
+}
+main .banner .banner-img img{
+    width:100%;
+    height: 600px;
+}
+main .banner .banner-mask{
+    width:100%;
+    height: 600px;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5);
+    top:0;
+}
+
+main .banner .banner-mask .banner-form{
+    width:504px;
+    position:absolute;
+    top:100px;
+    left:50%;
+    margin-left:-252px;
+    text-align:center;    
+}
+main .banner .banner-mask .banner-form input[type="text"],
+main .banner .banner-mask .banner-form input[type="email"]
+{
+    background:none;
+    border:2px solid #808080;
+    color:#808080;
+    line-height: 40px;
+    width:504px;
+    margin-bottom: 20px;
+}
+main .banner .banner-mask .banner-form textarea{
+    background:none;
+    border:2px solid #808080;
+    color:#808080;
+    width:504px;
+    height:110px;
+    margin-bottom: 16px;
+}
+
+main .banner .banner-mask .banner-form input[type="submit"]{
+    background:none;
+    border:2px solid #808080;
+    color:#808080;
+    width:200px;
+    line-height: 40px;
+}
+/* 公共样式 */
+
+.con-title{
+    text-align: center;
+    margin: 30px 0;
+}
+.con-title h2{
+    font-size:32px;
+    line-height:32px;
+}
+.con-title .dividers{
+    width:60px;
+    height:3px;
+    background:#07cbc9;
+    margin: 10px auto;
+}
+.con-title p{
+    color:gray;
+    font-size:14px;
+    line-height: 20px;
+    width:457px;
+    display: inline-block;
+    
+}
+
+
+/* about */
+main .about{
+    width:1200px;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+main .about .about-description{
+    position: relative;
+    overflow: hidden;;
+
+}
+main .about .about-description .left-about h3{
+    font-size:28px;
+    font-weight: bold;
+    line-height:150%;
+    
+}
+
+main .about .about-description .left-about{
+    float:left;
+    width:276px;
+    
+}
+main .about .about-description .left-about .left-abou-des{
+    position: absolute;
+    top:100px;
+    background: rgba(255, 255, 255, 0.5);
+    border:1px solid gray;
+}
+main .about .about-description .left-about .left-abou-des p{
+    width: 300px;
+    padding:20px;
+    font-size:18px;
+}
+main .about .about-description .left-about .left-abou-des form button{
+    background:#000;
+    color:#fff;
+    width: 140px;
+    border:none;
+    font-size:18px;
+    line-height: 40px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+main .about .about-description .content-about{
+    float:left;
+    width: 650px;
+    height: 435px;
+}
+main .about .about-description .content-about img{
+    width: 100%;
+}
+main .about .about-description .right-about{
+    float:right;
+    width: 260px;
+    text-align: center;
+}
+main .about .about-description .right-about .right-about-top{
+    border:1px solid #07CBC9;
+    padding:40px 0;
+}
+main .about .about-description .right-about .right-about-top h3{
+    font-size:28px;
+    line-height: 100%;
+    font-weight: bold;
+}
+main .about .about-description .right-about .right-about-top .dividers{
+    width:60px;
+    height:3px;
+    background:#07cbc9;
+    margin: 10px auto;
+}
+main .about .about-description .right-about .right-about-bottom{
+    margin-top: 30px;
+    padding:40px 0;
+    border:1px solid #07CBC9;
+}
+main .about .about-description .right-about .right-about-bottom h3{
+    font-size:28px;
+    line-height: 100%;
+    font-weight: bold;
+}
+main .about .about-description .right-about .right-about-bottom .dividers{
+    width:60px;
+    height:3px;
+    background:#07cbc9;
+    margin: 10px auto;
+}
+
+/* img-and-article */
+main .img-and-article{
+    width:100%;
+    
+    overflow:hidden;
+}
+main .img-and-article div{
+    width:25%;
+    height: 380px;
+    float:left;
+    
+}
+main .img-and-article .iaa-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+main .img-and-article .iaa-arcticle{
+    box-sizing: border-box;
+    background:#07cbc9;
+    padding:20px;
+    position: relative;
+}
+main .img-and-article .iaa-arcticle h3{
+    font-size: 24px;
+    color:#fff;
+    
+    line-height: 24px;
+}
+main .img-and-article .iaa-arcticle p:first-of-type{
+    font-size: 16px;
+    color:#fff;
+    padding:30px 0 20px;
+    
+    line-height: 24px;
+}
+main .img-and-article .iaa-arcticle p:last-of-type{
+    font-size:14px;
+    color:gray;
+    
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+main .img-and-article .iaa-arcticle form {
+    text-align: center;
+}
+main .img-and-article .iaa-arcticle form button{
+    background:#000;
+    color:#fff;
+    width: 138px;
+    border:none;
+    font-size:18px;
+    line-height: 40px;
+}
+main .img-and-article .iaa-arcticle .triangle{
+    position: absolute;
+    top:170px;
+    height: 0px;
+    width:20px;
+    border:20px solid transparent;
+    
+}
+main .img-and-article .iaa-arcticle .triangle-right{
+    right:100%;
+    border-right:20px solid #07CBC9;
+}
+main .img-and-article .iaa-arcticle .triangle-left{
+    border-left:20px solid #07CBC9;
+    left:100%;
+}
+
+
+
+/* Gallery区域 */
+.gallery-description{
+    width: 1200px;
+    margin: 0 auto;
+    
+    overflow:hidden;
+}
+.gallery-description dl {
+    float:left;
+    width:360px;
+    height: 240px;
+    position: relative;
+    padding: 0px 20px;
+    margin-bottom:30px;
+}
+.gallery-description dl dt img{
+    width:100%;
+}
+.gallery-description dl dd{
+    position: absolute;
+    bottom: 0;
+    background: #000;
+    font-size:20px;
+    line-height: 50px;
+    color:#fff;
+    width: 360px;
+    font-weight: normal;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+/* footer */
+footer p{
+    text-align:center;
+    line-height: 80px;
+    background: #07CBC9;
+    font-size: 18px;
+}
